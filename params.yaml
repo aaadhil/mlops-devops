@@ -1,0 +1,10 @@
+base:
+  project: medical_insurance
+  random_state: 42
+  target_col: charges
+
+source_data:
+  s3: source_data/medical_insurance.csv
+
+load_data:
+  raw_dataset_csv: data/processed/medical_insurance.csv
