@@ -7,4 +7,4 @@ source_data:
   s3: source_data/medical_insurance.csv
 
 load_data:
-  raw_dataset_csv: data/processed/medical_insurance.csv
+  raw_dataset_csv: data/raw/medical_insurance.csv
